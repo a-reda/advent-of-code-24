@@ -23,5 +23,4 @@ console.log(listA.length, listB.length)
 
 const result = listA.reduce((acc, current, index) => acc + Math.abs(current - listB[index]), 0)
 
-
 console.log(result)
